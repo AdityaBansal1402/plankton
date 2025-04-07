@@ -11,8 +11,8 @@ from flask import Flask, render_template, request, jsonify
 from werkzeug.utils import secure_filename
 import logging
 
-# genai.configure(api_key='AIzaSyCH28n91GHM_naGEEDHO7im5T37uQQvnUY')
-genai.configure(api_key='AIzaSyD738E6pB8OAA-Z9LU9Wv5oIQegLbbymgM')
+# genai.configure(api_key='')
+genai.configure(api_key='')
 
 class GemBot():
 
